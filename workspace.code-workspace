@@ -1,14 +1,8 @@
 {
   "folders": [
-	{
-		"path": "."
-	},
-	{
-		"path": "..\\web-studio-hw2\\css"
-	},
-	{
-		"path": "..\\web-studio-hw2\\images"
-	}
-],
+    {
+      "path": "."
+    }
+  ],
   "settings": {}
 }
