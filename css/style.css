@@ -128,6 +128,7 @@ ul {
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
+  text-transform: uppercase;
 
   font-weight: 900;
   font-size: 44px;
@@ -139,7 +140,7 @@ ul {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
+  margin-bottom: 0;
 }
 
 /* section */
@@ -192,6 +193,8 @@ ul {
 
 .section {
   letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-bottom: 0;
 }
 
 .title {
@@ -215,7 +218,8 @@ ul {
   display: flex;
 
   margin-top: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0;
+  padding-top: 0;
   padding-left: 0;
 }
 
@@ -255,12 +259,15 @@ ul {
 /* our team */
 .background {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .teams {
   display: flex;
+  margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 94px;
+  padding-bottom: 0;
   padding-left: 0;
 }
 
@@ -306,7 +313,7 @@ ul {
 
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 94px;
+  padding-top: 0;
   padding-bottom: 50px;
 }
 
@@ -387,6 +394,11 @@ ul {
 
 /* Стили для portfolio */
 
+.different-type {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .portfolio-title {
   margin-top: 0;
   margin-bottom: 0;
@@ -394,8 +406,8 @@ ul {
 
 .buttons-title {
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 34px;
   justify-content: center;
 }
 
@@ -422,26 +434,26 @@ ul {
   background-color: var(--accent-color);
 }
 
-.images-types {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 0;
-  margin-bottom: 94px;
-  padding-top: 0;
-  padding-left: 0;
-}
-
 .projects {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 0;
-  margin-left: 24px;
+  margin-left: 0;
   letter-spacing: 0.06em;
 
   color: var(--title-text-color);
+}
+
+.flex-elements {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-left: 0;
 }
 
 .flex-element {
@@ -461,14 +473,21 @@ ul {
   margin-bottom: 0;
 }
 
+.information {
+  padding: 20px 24px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
 .site-name {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
 
   margin-top: 4px;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  margin-bottom: 0;
+  margin-left: 0;
   letter-spacing: 0.06em;
 
   color: #757575;
