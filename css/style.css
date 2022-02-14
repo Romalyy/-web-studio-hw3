@@ -139,6 +139,7 @@ ul {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-bottom: 94px;
 }
 
 /* section */
@@ -180,7 +181,7 @@ ul {
 }
 
 .title {
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 10;
 }
 
@@ -198,12 +199,14 @@ ul {
 
 .features {
   display: flex;
+
   margin-top: 0;
   margin-bottom: 94px;
   padding-left: 0;
 }
 
 .lists {
+  width: 270px;
   margin-right: 30px;
 }
 
