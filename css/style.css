@@ -395,7 +395,7 @@ ul {
 .buttons-title {
   display: flex;
   margin-top: 94px;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
@@ -427,7 +427,7 @@ ul {
   flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 94px;
-  padding-top: 34px;
+  padding-top: 0;
   padding-left: 0;
 }
 
