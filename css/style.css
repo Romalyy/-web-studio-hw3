@@ -233,6 +233,10 @@ ul {
 }
 
 /* Actions */
+.actions {
+  padding-bottom: 94px;
+}
+
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -312,9 +316,9 @@ ul {
   text-align: center;
 
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   padding-top: 0;
-  padding-bottom: 50px;
+  padding-bottom: 0;
 }
 
 /* Button */
@@ -322,8 +326,6 @@ ul {
 .first-type-button {
   font-family: Roboto, sans-serif;
 
-  font-size: 24px;
-  padding: 12px 24px;
   display: inline-block;
   border-color: transparent;
   text-align: center;
@@ -407,29 +409,39 @@ ul {
 .buttons-title {
   display: flex;
   margin-top: 0;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
+  padding-left: 0;
   justify-content: center;
 }
 
-.second-type-button {
+.buttons {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
   background-color: #f5f4fa;
-  margin-right: 8px;
+  padding: 6px 22px;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
 
   border-color: transparent;
+  border-radius: 4px;
   text-align: center;
   letter-spacing: 0.03em;
 
   cursor: pointer;
 }
 
-.second-type-button:hover,
-.second-type-button:focus {
+.second-type-button {
+  margin-right: 8px;
+}
+
+.second-type-button:last-child {
+  margin-right: 0;
+}
+
+.buttons:hover,
+.buttons:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
@@ -477,6 +489,7 @@ ul {
   padding: 20px 24px;
   background-color: #ffffff;
   border: 1px solid #eeeeee;
+  border-top: 0;
   box-sizing: border-box;
 }
 
